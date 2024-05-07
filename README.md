@@ -24,3 +24,34 @@ The application
 - it tries to read the returned string after the reset.
 - When the copyright notice is returned the app stops (should be confirmation of success), otherwise it continues with other baud rates.
 
+### Pinout 10 pin header, notches at the left hand side 
+``` text 
+     --- ---
+TX+  |9  10|  TX-
+RX+   7   8|  RX-
+Aux  |5   6|  RX+
+RX-   3   4|  TX-
+TX+  |1   2|  GND
+     --- ---
+```
+
+### Delta 9 header
+``` text 
+TX+  9   10  TX-
+
+RX+  7    8  RX-
+
+Aux  5    6  RX+
+
+RX-  3    4  TX-
+
+TX+  1    2  GND
+```
+### Connection diagram
+``` text
+Drive(r)         KK K2 D9     
+1 TX+     -->    7 RXB 
+4 TX-     -->    2 RXA
+3 RX-     <--    3 TXB
+6 RX+     <--    8 TXA
+```
