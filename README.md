@@ -1,5 +1,6 @@
 # mdrive-resetter
 Application to connect to a MDrive 17 or 23 and send the correct sequence of commands to reset to factory default
+Currently on hold as I can't think of any more things I can try to get this thing to behave
 
 # prerequisites
 - Mdrive 17 or 23 with an exposed P2 connector
